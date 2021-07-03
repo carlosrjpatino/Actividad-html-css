@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-image: url(imagenes/header.jpg);
+  background-size: cover;
+  max-width: 100%;
+  height: 100vh;
+  color: white;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+header .logo__menu {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+header menu,
+button {
+  background: transparent;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+header .texto_titulo {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-size: 18px;
+}
+
+.section_titulo {
+  text-align: center;
+  padding-top: 20px;
+}
+.section__mas_de_nosotros {
+  padding: 40px 150px;
+  display: flex;
+  gap: 20px;
+}
+.tarjeta_mas_de_nosotros {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.tarjeta_mas_de_nosotros img {
+  width: 100px;
+  height: 100px;
+}
+.section__titulo_casas_y_depas h1 {
+  text-align: center;
+}
+
+.section__diseño_tarjeta {
+  padding: 40px 150px;
+  display: flex;
+  gap: 20px;
+}
+.section_img_casas {
+  width: 100%;
+}
+
+.section__tarjeta_casa_y_depas {
+  background: rgb(240, 240, 240);
+  border: solid 1px rgb(221, 221, 221);
+}
+
+.contenido_tarjeta {
+  padding: 0px 20px;
+  text-align: justify;
+}
+.tarjeta_precio {
+  color: greenyellow;
+  font-weight: bold;
+}
+.capacidad_casas_y_depas {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+
+.diseño__boton_ver_propiedad {
+  padding: 20px 0;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.boton-ver-propiedad {
+  width: 100%;
+  height: 40px;
+  background-color: rgb(230, 151, 6);
+  font-size: 14px;
+}
+
+.diseño_boton_ver_todas_las_propiedades {
+  padding: 20px 150px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.boton_ver_todos_las_propiedades {
+  background-color: rgb(83, 163, 4);
+  width: 150px;
+  height: 50px;
+}
+.imagen_footer {
+  background-image: url(imagenes/encuentra.jpg);
+  background-size: cover;
+  max-width: 100%;
+  height: 55vh;
+}
+.contenido_footer {
+  color: white;
+  padding: 100px 0 0 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.contactanos_boton {
+  width: 150px;
+  height: 40px;
+  background-color: rgb(230, 151, 6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+
+.nav_footer {
+  background-color: rgb(65, 65, 65);
+  padding: 10px 50px 0 50px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
